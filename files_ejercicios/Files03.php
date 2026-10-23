@@ -1,3 +1,17 @@
+<?php
+$url = "";
+$errores = [];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $url = $_POST["url"];
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        $errores[] = "URL no valida";
+    }
+
+    if (empty($errores)) {
+        $lineas = file($url);
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,7 +24,12 @@
 <body>
     <?php include "menu.html"; ?>
     <h2>Analizador de enlaces</h2>
-    <form></form>
+    <form method="post" action="">
+        <label for="url">URL:</label>
+        <input type="text" name="url" id="url">
+        <br><br>
+        <input type="submit" value="ENVIAR">
+    </form>
 </body>
 
 </html>
