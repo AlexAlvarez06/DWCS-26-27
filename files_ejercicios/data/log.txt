@@ -20,3 +20,5 @@ Fecha y hora: 21-10-2026 14:09:54, IP: 172.18.0.1, agente: Chrome
 Fecha y hora: 21-10-2026 14:10:40, IP: 172.18.0.1, agente: Chrome
 Fecha y hora: 21-10-2026 14:13:36, IP: 172.18.0.1, agente: Chrome
 Fecha y hora: 21-10-2026 14:16:15, IP: 172.18.0.1, agente: Chrome
+Fecha y hora: 28-10-2026 09:10:35, IP: 172.18.0.1, agente: Chrome
+Fecha y hora: 28-10-2026 09:10:37, IP: 172.18.0.1, agente: Chrome

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boletín de ficheros</title>
 </head>
-<body>
-    <?php
-include "menu.html";
-?>
-</body>
-</html>
 
+<body>
+    <?php include "menu.html"; ?>
+
+    <h1>Boletín de ejercicios con ficheros</h1>
+    <p>Alumno: Álex Álvarez Oliveira</p>
+    <p>Curso: 2º DAW</p>
+</body>
+
+</html>
